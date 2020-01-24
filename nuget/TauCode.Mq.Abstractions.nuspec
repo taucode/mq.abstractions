@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>TauCode.Mq.Abstractions</id>
+    <version>1.0.0.0-dev-2019-12-29-15-19</version>
+    <authors>TauCode</authors>
+    <owners>TauCode</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">LICENSE.txt</license>
+    <projectUrl>https://github.com/taucode/taucode.mq.abstractions</projectUrl>
+    <description>Message Queue abstractions</description>
+    <releaseNotes>
+      Initial version
+    </releaseNotes>
+    <tags>taucode message queue abstractions mq</tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\LICENSE.txt" target="" />
+    <file src="..\src\TauCode.Mq.Abstractions\bin\Release\netstandard2.0\TauCode.Mq.Abstractions.dll" target="lib\netstandard2.0" />
+    <file src="..\src\TauCode.Mq.Abstractions\bin\Release\netstandard2.0\TauCode.Mq.Abstractions.pdb" target="lib\netstandard2.0" />
+  </files>
+</package>
