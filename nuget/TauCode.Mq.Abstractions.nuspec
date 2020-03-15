@@ -14,6 +14,8 @@
     </releaseNotes>
     <tags>taucode message queue abstractions mq</tags>
     <dependencies>
+      <group targetFramework=".NETStandard2.1">
+      </group>
     </dependencies>
   </metadata>
   <files>
