@@ -4,7 +4,7 @@ namespace TauCode.Mq.Abstractions
 {
     public interface IMessage
     {
-        string CorrelationId { get; }
-        DateTime CreatedAt { get; }
+        string CorrelationId { get; set; }
+        DateTime CreatedAt { get; set; }
     }
 }
