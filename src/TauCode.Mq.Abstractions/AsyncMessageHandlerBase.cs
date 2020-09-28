@@ -2,7 +2,7 @@
 
 namespace TauCode.Mq.Abstractions
 {
-    public abstract class AsyncMessageHandler<TMessage> : IAsyncMessageHandler<TMessage>
+    public abstract class AsyncMessageHandlerBase<TMessage> : IAsyncMessageHandler<TMessage>
         where TMessage : IMessage
     {
         public abstract Task HandleAsync(TMessage message);
