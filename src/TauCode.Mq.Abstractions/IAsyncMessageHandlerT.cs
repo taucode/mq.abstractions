@@ -1,10 +1,11 @@
-﻿using System.Threading.Tasks;
+﻿using System.Threading;
+using System.Threading.Tasks;
 
 namespace TauCode.Mq.Abstractions
 {
     public interface IAsyncMessageHandler<in TMessage> : IAsyncMessageHandler
         where TMessage : IMessage
     {
-        Task HandleAsync(TMessage message);
+        Task HandleAsync(TMessage message, CancellationToken cancellationToken);
     }
 }
