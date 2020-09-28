@@ -8,7 +8,7 @@ namespace TauCode.Mq.Abstractions.Tests
         [Test]
         public void MqAbstractionsDummyTest()
         {
-            Assert.Pass("Added for passing Jenkins.");
+            Assert.Pass("Added for passing Azure DevOps.");
         }
     }
 }
