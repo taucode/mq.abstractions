@@ -2,6 +2,6 @@
 {
     public interface IMessageHandler
     {
-        void Handle(object message);
+        void Handle(object message, string topic);
     }
 }

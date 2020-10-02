@@ -10,7 +10,7 @@
     <projectUrl>https://github.com/taucode/taucode.mq.abstractions</projectUrl>
     <description>Message Queue abstractions</description>
     <releaseNotes>
-      Migrating to Azure DevOps.
+      Added topic support to handlers.
     </releaseNotes>
     <tags>taucode message queue abstractions mq</tags>
     <dependencies>
