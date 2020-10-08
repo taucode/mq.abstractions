@@ -1,0 +1,3 @@
+2020-10-08
+==========
+    1. Swept everything but IMessage interface. Stuff was moved to TauCode.Mq.
