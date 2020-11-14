@@ -1,3 +1,7 @@
 2020-10-08
 ==========
     1. Swept everything but IMessage interface. Stuff was moved to TauCode.Mq.
+
+2020-11-14
+==========
+    1. Huge dev refactoring.
