@@ -1,2 +1,2 @@
 # taucode.mq.abstractions
-Message Queue abstractions
+TauCode message queue abstractions
