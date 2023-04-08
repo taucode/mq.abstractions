@@ -1,12 +1,9 @@
 dotnet restore
 
-dotnet clean --configuration Debug
-dotnet clean --configuration Release
+dotnet build TauCode.Mq.Abstractions.sln -c Debug
+dotnet build TauCode.Mq.Abstractions.sln -c Release
 
-dotnet build --configuration Debug
-dotnet build --configuration Release
-
-dotnet test -c Debug .\test\TauCode.Mq.Abstractions.Tests\TauCode.Mq.Abstractions.Tests.csproj
-dotnet test -c Release .\test\TauCode.Mq.Abstractions.Tests\TauCode.Mq.Abstractions.Tests.csproj
+dotnet test TauCode.Mq.Abstractions.sln -c Debug
+dotnet test TauCode.Mq.Abstractions.sln -c Release
 
 nuget pack nuget\TauCode.Mq.Abstractions.nuspec

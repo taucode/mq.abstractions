@@ -3,10 +3,10 @@
 namespace TauCode.Mq.Abstractions.Tests;
 
 [TestFixture]
-public class MqAbstractionsDummyFixture
+public class DummyFixture
 {
     [Test]
-    public void MqAbstractionsDummyTest()
+    public void DummyTest()
     {
         Assert.Pass("Added for passing Azure DevOps.");
     }
